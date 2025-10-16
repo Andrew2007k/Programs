@@ -1,12 +1,9 @@
-from pywinauto import Application, keyboard
-import time
-import EISAuto
+import CVscript
+
+filepath = '/Users/shaunkurien/Downloads/AK MMP12 PRO 0.1 0707 CV.DTA'
 
 def main():
     #Run files and operate full system
-    EISAuto.EISAuto()
-    print("The sequence has been completed.")
-    time.sleep(1)
-    print("You should now see the SaveAs dialog")
+    CVscript.CVAnalyze(filepath)
 
 main()
