@@ -1,4 +1,5 @@
 import CVscript
+import pandas as panda
 
 filepath = '/Users/shaunkurien/Downloads/AK MMP12 PRO 0.1 0707 CV.DTA'
 
